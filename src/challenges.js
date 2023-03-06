@@ -16,8 +16,8 @@ function splitSentence(string) {
 function concatName(array) {
   return `${array[array.length - 1]}, ${array[0]}`;
 }
-
 // Desafio 4 - Crie a função footballPoints
+const footballPoints = (wins, ties) => (wins * 3) + ties;
 
 // Desafio 5 - Crie a função highestCount
 
