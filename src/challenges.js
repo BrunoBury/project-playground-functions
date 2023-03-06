@@ -6,8 +6,11 @@ function compareTrue(value1, value2) {
   return false;
 }
 
-console.log(compareTrue(true, false));
 // Desafio 2 - Crie a função splitSentence
+function splitSentence(string) {
+  string = string.split(' ');
+  return string;
+}
 
 // Desafio 3 - Crie a função concatName
 
