@@ -54,6 +54,18 @@ function calcAllAreas(base, height, form) {
   return 'Não foi possível fazer o cálculo, insira uma forma geométrica válida';
 }
 // Desafio 7 - Crie a função catAndMouse
+function catAndMouse(mouse, cat1, cat2) {
+  const distCat1 = Math.abs(cat1 - mouse);
+  const distCat2 = Math.abs(cat2 - mouse);
+  if (distCat1 < distCat2) {
+    return 'cat1';
+  } if (distCat2 < distCat1) {
+    return 'cat2';
+  } if
+  (distCat1 === distCat2) {
+    return 'os gatos trombam e o rato foge';
+  }
+}
 
 // Desafio 8 - Crie a função fizzBuzz
 
