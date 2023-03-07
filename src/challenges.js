@@ -1,3 +1,5 @@
+/* eslint-disable complexity */
+/* eslint-disable sonarjs/cognitive-complexity */
 // Desafio 1 - Crie a função compareTrue
 function compareTrue(value1, value2) {
   if (value1 && value2 === true) {
@@ -68,7 +70,20 @@ function catAndMouse(mouse, cat1, cat2) {
 }
 
 // Desafio 8 - Crie a função fizzBuzz
-
+function fizzBuzz(array) {
+  let newNumber = [];
+  for (let index = 0; index < array.length; index += 1) {
+    if (array[index] % 3 === 0 && array[index] % 5 === 0) {
+      newNumber.push('fizzBuzz');
+    } else if (array[index] % 5 === 0) {
+      newNumber.push('buzz');
+    } else if (array[index] % 3 === 0) {
+      newNumber.push('fizz');
+    } else {
+      newNumber.push('bug!');
+    }
+  } return newNumber;
+}
 // Desafio 9 - Crie a função encode e a função decode
 
 // Desafio 10 - Crie a função techList
