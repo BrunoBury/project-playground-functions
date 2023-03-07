@@ -20,7 +20,21 @@ function concatName(array) {
 const footballPoints = (wins, ties) => (wins * 3) + ties;
 
 // Desafio 5 - Crie a função highestCount
-
+function highestCount(array) {
+  let number = array[0];
+  for (let index = 0; index < array.length; index += 1) {
+    if (array[index] > number) {
+      number = array[index];
+    }
+  }
+  let count = 0;
+  for (let index = 0; index < array.length; index += 1) {
+    if (array[index] === number) {
+      count += 1;
+    }
+  } return count;
+}
+highestCount([9, 1, 2, 3, 9, 5, 7]);
 // Desafio 6 - Crie as funções calcTriangleArea, calcRectangleArea e calcAllAreas
 
 // Desafio 7 - Crie a função catAndMouse
