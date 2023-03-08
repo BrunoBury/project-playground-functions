@@ -99,6 +99,13 @@ function decode(string) {
 }
 
 // Desafio 10 - Crie a função techList
+function techList(tecnologies, name) {
+  tecnologies.sort();
+  const list = [];
+  for (let index = 0; index < tecnologies.length; index += 1) {
+    list.push({ tech: tecnologies[index], name });
+  } return list;
+}
 
 // Não modifique essas linhas
 module.exports = {
