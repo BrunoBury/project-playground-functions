@@ -19,7 +19,7 @@ function concatName(array) {
   return `${array[array.length - 1]}, ${array[0]}`;
 }
 // Desafio 4 - Crie a função footballPoints
-const footballPoints = (wins, ties) => (wins * 3) + ties;
+const footballPoints = (wins, ties) => wins * 3 + ties;
 
 // Desafio 5 - Crie a função highestCount
 function highestCount(array) {
@@ -34,7 +34,8 @@ function highestCount(array) {
     if (array[index] === number) {
       count += 1;
     }
-  } return count;
+  }
+  return count;
 }
 // Desafio 6 - Crie as funções calcTriangleArea, calcRectangleArea e calcAllAreas
 function calcTriangleArea(base, height) {
@@ -49,7 +50,8 @@ function calcAllAreas(base, height, form) {
   if (form === 'triângulo') {
     area = (base * height) / 2;
     return `O valor da área do triângulo é de: ${area}`;
-  } if (form === 'retângulo') {
+  }
+  if (form === 'retângulo') {
     area = base * height;
     return `O valor da área do retângulo é de: ${area}`;
   }
@@ -61,10 +63,11 @@ function catAndMouse(mouse, cat1, cat2) {
   const distCat2 = Math.abs(cat2 - mouse);
   if (distCat1 < distCat2) {
     return 'cat1';
-  } if (distCat2 < distCat1) {
+  }
+  if (distCat2 < distCat1) {
     return 'cat2';
-  } if
-  (distCat1 === distCat2) {
+  }
+  if (distCat1 === distCat2) {
     return 'os gatos trombam e o rato foge';
   }
 }
@@ -82,9 +85,18 @@ function fizzBuzz(array) {
     } else {
       newNumber.push('bug!');
     }
-  } return newNumber;
+  }
+  return newNumber;
 }
 // Desafio 9 - Crie a função encode e a função decode
+function encode(string) {
+  return string.replace(/a/g, '1').replace(/e/g, '2').replace(/i/g, '3').replace(/o/g, '4')
+    .replace(/u/g, '5');
+}
+function decode(string) {
+  return string.replace(/1/g, 'a').replace(/2/g, 'e').replace(/3/g, 'i').replace(/4/g, 'o')
+    .replace(/5/g, 'u');
+}
 
 // Desafio 10 - Crie a função techList
 
