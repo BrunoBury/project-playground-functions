@@ -1,10 +1,8 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+**Projeto Playground Functions.**
+
+- Nesse projeto desenvolvi códigos em JavaScript que exploram conceitos fundamentais da linguagem, como a tipagem dinâmica e o uso de operadores lógicos.Além disso, empreguei objetos e funções para estruturar e organizar o código de forma eficiente e legível.
+
+
+
+
+
